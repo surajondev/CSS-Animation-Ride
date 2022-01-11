@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --boderRadius: 10px;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.container {
+  margin: 4em auto;
+  background-color: #f1f7fe;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--boderRadius);
+  position: relative;
+  max-width: 400px;
+}
+
+img {
+  height: 100px;
+}
+
+.inputContainer {
+  background-color: white;
+  border-radius: var(--boderRadius);
+  margin: 1em 0;
+  padding: 1em 0.5em;
+  color: grey;
+  width: 70%;
+}
+
+input {
+  border: none;
+  padding: 0 0.5em;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  background: #3d4785;
+  color: white;
+  border: none;
+  width: 70%;
+  border-radius: var(--boderRadius);
+  margin: 1em 0;
+  padding: 1em 0.5em;
+  cursor: pointer;
+}
+
+.inputLine {
+  margin-top: 0.5em;
+  padding: 0.5em 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 20px;
+}
