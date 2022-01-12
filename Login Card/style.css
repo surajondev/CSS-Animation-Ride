@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url("background.jpg");
+  background-image: url("./image/background.jpg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -68,4 +68,9 @@ button {
 
 .logo {
   height: 20px;
+}
+
+#error {
+  color: orangered;
+  font-weight: bold;
 }

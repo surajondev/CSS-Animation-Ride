@@ -6,22 +6,25 @@
 </head>
 <body>
     <div class="container">
-        <img src="logo.png" />
+        <img src="./image/logo.png" />
         <div class="inputContainer">
             <p>Email Address<p>
             <div class="inputLine">
-                <img src="email.png" class="logo"/>
-                <input type="email" placeholder="surajondev@gmail.com" size="25"/>
+                <img src="./image/email.png" class="logo"/>
+                <input id="email" type="email" placeholder="surajondev@gmail.com" size="25"/>
             </div>
         </div>
         <div class="inputContainer">
             <p>Enter Password<p>
                 <div class="inputLine">
-                    <img src="password.png" class="logo"/>
-                    <input type="password" placeholder="surajondev" size="25"/>
+                    <img src="./image/password.png" class="logo"/>
+                    <input id="password" type="password" placeholder="surajondev" size="25"/>
                 </div>
         </div>
-        <button>Login</button>
+        <p id="error"></p>
+        <button onclick="myFunction()">Login</button>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
