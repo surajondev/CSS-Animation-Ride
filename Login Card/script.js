@@ -9,12 +9,17 @@ const myFunction = () =>{
     const email = document.getElementById("email").value
     const password = document.getElementById("password").value
     if(email === "surajondev@gmail.com" && password === "surajondev@gmail.com"){
+    
         anime({
             targets:'.container',
             scale:[1, 0],
+            translateY:[0, 1200],
             duration: 1000,
             easing: 'easeInOutExpo',
         })
+
+        document.getElementById("error").innerHTML = ""
+
     }
     else{
         anime({

@@ -4,7 +4,15 @@
 }
 
 :root {
+  --background: #f1f7fe;
+  --primary: #3d4785;
+  --primaryLight: #48549c;
+  --white: #fff;
+  --error: #d9534f;
+  --text: grey;
   --boderRadius: 10px;
+  --contentPadding: 1em 0.5em;
+  --contentMargin: 1em 0;
 }
 
 body {
@@ -15,7 +23,7 @@ body {
 
 .container {
   margin: 4em auto;
-  background-color: #f1f7fe;
+  background-color: var(--background);
   width: 60%;
   justify-content: center;
   align-items: center;
@@ -31,32 +39,37 @@ img {
 }
 
 .inputContainer {
-  background-color: white;
+  background-color: var(--white);
   border-radius: var(--boderRadius);
-  margin: 1em 0;
-  padding: 1em 0.5em;
-  color: grey;
+  margin: var(--contentMargin);
+  padding: var(--contentPadding);
+  color: var(--text);
   width: 70%;
 }
 
 input {
   border: none;
-  padding: 0 0.5em;
+  margin: 0 0.5em;
 }
 
 input:focus {
   outline: none;
+  border-bottom: 1px solid var(--text);
 }
 
 button {
-  background: #3d4785;
+  background: var(--primary);
   color: white;
   border: none;
   width: 70%;
   border-radius: var(--boderRadius);
-  margin: 1em 0;
-  padding: 1em 0.5em;
+  margin: var(--contentMargin);
+  padding: var(--contentPadding);
   cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--primaryLight);
 }
 
 .inputLine {
@@ -71,6 +84,6 @@ button {
 }
 
 #error {
-  color: orangered;
+  color: var(--error);
   font-weight: bold;
 }
