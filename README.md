@@ -1,7 +1,7 @@
 
 # CSS Animation Ride
 
-Hello and welcome to CSS Animation Ride.
+Hello and welcome to CSS Animation Ride. A place to put your animation and learn how to contribute to an open source project.
 
 # Rules
 
