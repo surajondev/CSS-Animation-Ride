@@ -7,6 +7,15 @@ let cards = [
     githubLink: 'https://github.com/davidbru'
   }
 ];
+let cards = [
+  {
+    artName: 'Bouncing ball',
+    pageLink: './Animations/pavankumarraju13/index.html',
+    imageLink: './Animations/ball_bounce_.gif',
+    author: 'pavankumarraju13',
+    githubLink: 'https://github.com/pavankumarraju13'
+  }
+];
 
 let contents = [];
 Shuffle(cards).forEach((c) => {
