@@ -1,4 +1,12 @@
-let cards=[]
+let cards = [
+  {
+    artName: 'Round and Round',
+    pageLink: './Animations/davidbru/index.html',
+    imageLink: './Animations/davidbru/roundAndRound.gif',
+    author: 'davidbru',
+    githubLink: 'https://github.com/davidbru'
+  }
+];
 
 let contents = [];
 Shuffle(cards).forEach((c) => {
