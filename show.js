@@ -5,9 +5,16 @@ let cards = [
     imageLink: './Animations/davidbru/roundAndRound.gif',
     author: 'davidbru',
     githubLink: 'https://github.com/davidbru'
-  }
-];
-let cards = [
+  },
+
+  {
+    artName: 'Bulbasaur-Button',
+    pageLink: './Animations/Bulbasaur-Button/index.html',
+    imageLink: './Animations/Bulbasaur-Button/bulbutton.gif',
+    author: 'HarshJa1n',
+    githubLink: 'https://github.com/HarshJa1n'
+  },
+  
   {
     artName: 'Bouncing ball',
     pageLink: './Animations/pavankumarraju13/index.html',
