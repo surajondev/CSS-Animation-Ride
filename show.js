@@ -21,6 +21,14 @@ let cards = [
     imageLink: './Animations/ball_bounce_.gif',
     author: 'pavankumarraju13',
     githubLink: 'https://github.com/pavankumarraju13'
+  },
+  
+  {
+    artName: 'Wavy Boxes',
+    pageLink: './Animations/yashvardhan/index.html',
+    imageLink: './Animations/yashvardhan/wavy_boxes.gif',
+    author: 'Yashvardhan',
+    githubLink: 'https://github.com/25011908vardhan'
   }
 ];
 
