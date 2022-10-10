@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Source+Sans+Pro:wght@600&display=swap");
+
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 4px;
+  background-color: #25252a;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.btn {
+  color: white;
+  width: 300px;
+  height: 100px;
+  border: none;
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  outline: none;
+  font-size: 2em;
+  border: 3px solid #42fbf2;
+  position: relative;
+  z-index: 1;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn::before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  opacity: 0;
+  content: "";
+  background-color: #42fbf2;
+}
+
+.btn:hover::before {
+  transition: 0.5 all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}

@@ -21,7 +21,15 @@ let cards = [
     imageLink: './Animations/ball_bounce_.gif',
     author: 'pavankumarraju13',
     githubLink: 'https://github.com/pavankumarraju13'
-  }
+  },
+
+  {
+    artName: 'Button Animation',
+    pageLink: './Animations/Sparsh47/index.html',
+    imageLink: './Animations/Sparsh47/css_animation.gif',
+    author: 'Sparsh47',
+    githubLink: 'https://github.com/Sparsh47'
+  },
 ];
 
 let contents = [];
