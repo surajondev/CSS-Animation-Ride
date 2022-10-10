@@ -29,7 +29,16 @@ let cards = [
     imageLink: './Animations/yashvardhan/wavy_boxes.gif',
     author: 'Yashvardhan',
     githubLink: 'https://github.com/25011908vardhan'
+  },
+
+  {
+    artName: 'Colourful Bars',
+    pageLink: './Animations/Priyadarshini/index.html',
+    imageLink: './Animations/Priyadarshini/colourfulBars.gif',
+    author: 'Priyadarshini',
+    githubLink: 'https://github.com/PriyadarshiniSharma'
   }
+
 ];
 
 let contents = [];
