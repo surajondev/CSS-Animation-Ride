@@ -1,0 +1,63 @@
+.ball {
+    text-indent: 1px;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(94, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    right: 0%;
+    text-align: center;
+    bottom: 0%;
+    color: rgb(255, 255, 255);
+    animation: ballmove 8s 1;
+}
+
+@keyframes ballmove {
+    0% {
+        transform: rotateZ(-360deg);
+        top: 0%;
+        right: 93%;
+        animation-timing-function: ease-in;
+    }
+
+    12.5% {
+        right: 93%;
+        top: 82%;
+        animation-timing-function: ease-out;
+    }
+
+    25% {
+        right: 77.5%;
+        top: 20.5%;
+        animation-timing-function: ease-in;
+    }
+
+    37.5% {
+        right: 62%;
+        top: 82%;
+        animation-timing-function: ease-out;
+    }
+
+    50% {
+        right: 46.5%;
+        top: 35.87%;
+        animation-timing-function: ease-in;
+    }
+
+    62.5% {
+        right: 31%;
+        top: 82%;
+        animation-timing-function: ease-out;
+    }
+
+    75% {
+        right: 15.5%;
+        top: 47.4%;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        right: 0%;
+        top: 82%;
+    }
+}
