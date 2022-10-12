@@ -1,0 +1,83 @@
+:root {
+    --pink-light: #ff7eb4;
+    --pink: #ff2581;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    animation: animate_bg_color 10s linear infinite;
+}
+
+@keyframes animate_bg_color {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.icon {
+    fill: transparent;
+    stroke: var(--pink);
+    stroke-width: 20;
+    cursor: pointer;
+    position: relative;
+}
+
+svg {
+    overflow: visible;
+    width: 10rem;
+}
+
+path {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 1550;
+    transform-origin: center;
+}
+
+.heart-background {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    stroke: none;
+}
+
+.heart-main:hover path {
+    animation: stroke-animation 2s ease-in-out forwards;
+}
+
+@keyframes stroke-animation {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    30% {
+        stroke-dashoffset: 1550;
+    }
+    60% {
+        stroke-dashoffset: 3100;
+        fill: transparent;
+        transform: scale(1);
+    }
+    80% {
+        fill: var(--pink);
+        transform: scale(1.1);
+    }
+    90% {
+        transform: scale(1);
+    }
+    100% {
+        stroke-dashoffset: 3100;
+        fill: var(--pink);
+    }
+}
