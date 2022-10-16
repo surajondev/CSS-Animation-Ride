@@ -1,0 +1,123 @@
+body { 
+    font-family: sans-serif; 
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+}
+div {
+  text-align: center;
+}
+
+
+span {
+  background: #A020F0;
+  color: white;
+  padding: 1.5rem;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+span.strong-hover-shake:hover {
+  animation: tilt-shaking 0.15s infinite;
+}
+
+span.gentle-hover-shake:hover {
+  animation: tilt-shaking 0.25s infinite;
+}
+
+span.gentle-tilt-move-shake:hover {
+  animation: tilt-n-move-shaking 0.25s infinite;
+}
+
+span.strong-tilt-move-shake:hover {
+  animation: tilt-n-move-shaking 0.15s infinite;
+}
+
+span.constant-tilt-shake {
+  animation: tilt-shaking 0.3s infinite;
+}
+
+span.vertical-shake {
+  animation: vertical-shaking 0.35s infinite;
+}
+
+span.horizontal-shake {
+  animation: horizontal-shaking 0.35s infinite;
+}
+
+span.rise-shake {
+  animation: jump-shaking 0.83s infinite;
+}
+
+span.skew-shake-x {
+  animation: skew-x-shake 1.3s infinite;
+}
+
+span.skew-shake-y {
+  animation: skew-y-shake 1.3s infinite;
+}
+
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes tilt-n-move-shaking {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+@keyframes vertical-shaking {
+  0% { transform: translateY(0) }
+  25% { transform: translateY(5px) }
+  50% { transform: translateY(-5px) }
+  75% { transform: translateY(5px) }
+  100% { transform: translateY(0) }
+}
+
+@keyframes horizontal-shaking {
+  0% { transform: translateX(0) }
+  25% { transform: translateX(5px) }
+  50% { transform: translateX(-5px) }
+  75% { transform: translateX(5px) }
+  100% { transform: translateX(0) }
+}
+
+@keyframes jump-shaking {
+  0% { transform: translateX(0) }
+  25% { transform: translateY(-9px) }
+  35% { transform: translateY(-9px) rotate(17deg) }
+  55% { transform: translateY(-9px) rotate(-17deg) }
+  65% { transform: translateY(-9px) rotate(17deg) }
+  75% { transform: translateY(-9px) rotate(-17deg) }
+  100% { transform: translateY(0) rotate(0) }
+}
+
+@keyframes skew-x-shake {
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+
+@keyframes skew-y-shake {
+  0% { transform: skewY(-15deg); }
+  5% { transform: skewY(15deg); }
+  10% { transform: skewY(-15deg); }
+  15% { transform: skewY(15deg); }
+  20% { transform: skewY(0deg); }
+  100% { transform: skewY(0deg); }  
+}
+
+
+
