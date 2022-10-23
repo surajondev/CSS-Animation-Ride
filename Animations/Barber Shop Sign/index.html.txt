@@ -1,0 +1,16 @@
+<div class="sign-wrapper">
+  <div class="sign">
+    <div class="half-circle top"></div>
+    <div class="separator"></div>
+    <div class="sign-body">
+      <div class="blue-stripe"></div>
+      <div class="red-stripe"></div>
+      <div class="blue-stripe"></div>
+      <div class="red-stripe"></div>
+      <div class="blue-stripe"></div>
+      <div class="red-stripe"></div>
+    </div>
+    <div class="separator"></div>
+    <div class="half-circle bottom"></div>
+  </div>
+</div>
