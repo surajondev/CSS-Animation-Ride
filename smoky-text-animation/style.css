@@ -1,0 +1,91 @@
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+	font-size: 16px;
+	margin: 0;
+	background: #000;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+.all_text{
+	font-size: 70px;
+	display: flex;
+	text-transform: uppercase;
+	font-weight: 700;
+	
+}
+.all_text span{
+	animation: smoke 2.5s;
+	animation-fill-mode: forwards;
+}
+
+.all_text span:nth-child(2){
+	animation-delay: 0.5s;
+}
+.all_text span:nth-child(3){
+	animation-delay: 1s;
+}
+.all_text span:nth-child(4){
+	animation-delay: 1.5s;
+}
+.all_text span:nth-child(5){
+	animation-delay: 2s;
+}
+.all_text span:nth-child(6){
+	animation-delay: 2.5s;
+}
+.all_text span:nth-child(7){
+	animation-delay: 3s;
+}
+.all_text span:nth-child(8){
+	animation-delay: 3.5s;
+}
+.all_text span:nth-child(9){
+	animation-delay: 4s;
+}
+.all_text span:nth-child(10){
+	animation-delay: 4.5s;
+}
+.all_text span:nth-child(11){
+	animation-delay: 5s;
+}
+.all_text span:nth-child(12){
+	animation-delay: 5.5s;
+}
+.all_text span:nth-child(13){
+	animation-delay: 6s;
+}
+.all_text span:nth-child(14){
+	animation-delay: 6.5s;
+}
+.all_text span:nth-child(15){
+	animation-delay: 7s;
+}
+
+@keyframes smoke{
+	from{
+		transform: none;
+		filter: blur(0);
+		text-shadow: none;
+		opacity: 1;
+	}
+	50%{
+		opacity: 1;
+	}
+	to{
+		transform: scale(3) translate(-100px, -100px) rotate(-90deg);
+		filter: blur(17px);
+		text-shadow: -25px -15px 20px gray;
+		color: #000;
+		opacity: 0;
+	}
+
+}
