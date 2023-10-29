@@ -1,0 +1,90 @@
+/* general styling */
+*   {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(123, 231, 211);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    height:400px;
+    width: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center ;
+          
+}
+/* stying for ball */
+.ball{
+    position: absolute;
+    top:0;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(185, 101, 202);
+    border-radius:50%;
+    box-shadow:inset 0 -10px 20px gray;
+    animation:bounce 0.7s cubic-bezier(0.049, 0, 0.89, 0.74) infinite alternate ;
+}
+.shadow{
+    position:absolute;
+    top:400px;
+    height:20px;
+    width:100px;
+    background-color: black;
+    border-radius:50%;
+    box-shadow:0 0 10px black;
+    z-index:-1;
+    animation:shadow 0.7s cubic-bezier(0.049, 0, 0.89, 0.74) infinite alternate ;
+}
+  /*ball animation */
+  @keyframes bounce{
+    0%{
+        transform:translateY(300px); 
+        height: 100px;
+        width: 100px;
+
+    }
+    75%{
+        height: 100px;
+        width: 100px;
+
+    }
+    90%{
+        height: 95x;
+        width: 105px;
+
+    }
+    100%{
+        height: 90px;
+        width: 110px;
+
+    }
+  }
+  /* animation shadow */
+  @keyframes shadow{
+    0%{
+        opacity:0.1;
+        height: 20px;
+        width: 110px;
+
+    }
+    80%{
+        opacity: 0.4;
+        height: 15px;
+        width: 90px;
+
+    }
+
+    100%{
+        opacity: 0.5;
+        height:10px;
+        width: 80px;
+
+    }
+  }

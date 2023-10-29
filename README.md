@@ -2,7 +2,14 @@
 
 Welcome to CSS Animation Ride, a place to showcase your creative animations and learn how to contribute to an open-source project.
 
+
+## Table of Content
+
+- [Rules](#rules)
+- [How to Contribute](#how-to-contribute)
+
 ## 📜 Rules
+Hello and welcome to CSS Animation Ride. A place to put your animation and learn how to contribute to an open source project.
 
 The rules are simple. You have to:
 
@@ -12,7 +19,11 @@ The rules are simple. You have to:
 
 ## 🤝 How to Contribute
 
-If you've never forked a repository or made a pull request before, a helpful resource to learn about the fork workflow can be found [here](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow).
+
+## How to Contribute
+
+If you've never forked a repository or made a pull request before,a cool resource to learn about the fork workflow can be found here - [https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
+
 
 Follow these steps to contribute:
 

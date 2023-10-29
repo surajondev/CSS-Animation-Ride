@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(138, 197, 249);
+}
+.container{
+    margin-top: 200px;
+}
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(238, 255, 0);
+    border-color: 1px solid red;
+    padding: 1px;
+    margin: 20px auto;
+}
+.box:nth-child(1){
+    animation: right 1s infinite ease-in-out;
+}
+.box:nth-child(2){
+    animation: left 1s infinite ease-in-out;
+}
+.box:nth-child(3){
+    animation: right 1s infinite ease-in-out;
+}
+.box:nth-child(4){
+    animation: left 1s infinite ease-in-out;
+}
+.box:nth-child(5){
+    animation: right 1s infinite ease-in-out;
+}
+.box:nth-child(6){
+    animation: left 1s infinite ease-in-out;
+}
+.box:nth-child(7){
+    animation: right 1s infinite ease-in-out;
+}
+.box:nth-child(8){
+    animation: left 1s infinite ease-in-out;
+}
+@keyframes left{
+    0% {
+        transform: translate(-15px);
+    }
+    50%{
+        transform: translate(15px);
+    }
+    100%{
+        transform: translate(-15px);
+    }
+}
+@keyframes right{
+    0% {
+        transform: translate(15px);
+    }
+    50%{
+        transform: translate(-15px);
+    }
+    100%{
+        transform: translate(15px);
+    }
+}

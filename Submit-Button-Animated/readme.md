@@ -1,0 +1,2 @@
+Animated Submit Button
+I have use CSS Animation Properties .Users appreciate the small, unexpected delight moments that. This submit button is a clean, pleasing way to provide visual feedback indicating that an action has been completed, such as a form being submitted.

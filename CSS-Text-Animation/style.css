@@ -1,0 +1,14 @@
+/* bigshot one font */
+@import url(https://fonts.googleapis.com/css?family=Cabin+Condensed);
+
+body,html{margin:0;padding:0;height:100%;}
+body{
+  background: #f1f1f1;
+  background-size:cover;
+  font-family: 'Cabin Condensed', sans-serif;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+}
+svg{font-weight:bold;max-width:300px;height:100%;}

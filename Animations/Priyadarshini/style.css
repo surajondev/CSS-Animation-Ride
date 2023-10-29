@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    background: black;
+}
+
+.box{
+    height: 30px;
+    width: 30px;
+    transform: translateY(50vh);
+
+}
+
+.box-red{
+    background: #ff4d4d;
+    margin:0;
+    animation: movein 8s ease-in-out 0s infinite normal both;
+    
+}
+
+.box-blue{
+    background: #738cff;
+    margin:0;
+    animation: movein 8s ease-in-out .25s infinite normal both;
+}
+    
+.box-green{
+    background: #46ff36;
+    margin:0;
+    animation: movein 8s ease-in-out .5s infinite normal both;
+}
+    
+.box-orange{
+    background: #ffaf24;
+    margin:0;
+    animation: movein 8s ease-in-out .75s infinite normal both;
+}
+    
+.box-purple{
+    background: #a979ba;
+    margin:0;
+    animation: movein 8s ease-in-out 1s infinite normal both;
+    
+}
+
+
+@keyframes movein{
+    0%{transform: translate(0vw, 50vh);}
+    50%{transform: translate(50vw, 50vh) scaleX(10);}
+    100%{transform: translate(100vw, 50vh) scaleX(.1);}
+}
